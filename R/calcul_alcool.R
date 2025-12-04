@@ -13,4 +13,3 @@ consumption_year <- function(data){
     cons_year <- cons_week*52
     data|> mutate(cons_year)
 }
-consumption_year(df1)
