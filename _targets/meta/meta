@@ -1,0 +1,7 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+download_world_data|function|d79d00a48396f118
+mean_global|function|938ffc2243255548
+load_world_data|function|b844d8f2edc6f7ec
+consumption_year|function|2b2c121ba82971e7
+world_db|stem|89cb4e93979a9534|0b3ad4886910f158|5a08a6b9991fdcb9|-1938967394||t20426.6486257842s|s14972b|14972|rds|local|vector|||0.205||
+data_files|stem|3d987846e478a196|2e70603228862c7e|7eb1a95ac0843fc9|22696647|/home/emilio/Documents/cesab_repNum_2025/projet-cesab/data/alcohol_per_country.csv|t20426.6486312588s|s102891b|102891|file|local|vector|||0.446||
