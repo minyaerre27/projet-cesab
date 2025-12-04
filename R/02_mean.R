@@ -5,9 +5,10 @@
 #' @examples
 #' dl_wildfinder_data()
 
-mean <- function(data){
+mean_global <- function(data){
   data2 = data |>
     dplyr::group_by(Entity) |>
     dplyr::summarise(conso = mean(sh_alc_pcap_li))
   return(data2)
 }
+
