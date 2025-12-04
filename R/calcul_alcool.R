@@ -11,5 +11,5 @@ consumption_year <- function(data){
     alcool_apetizer <- data$apetizer*0.18*0.07
     cons_week <- alcool_wine+alcool_beer+alcool_liquor+alcool_apetizer
     cons_year <- cons_week*52
-    data|> mutate(cons_year)
+    data|> dplyr::mutate(cons_year)
 }
