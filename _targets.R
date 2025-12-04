@@ -16,5 +16,10 @@ list(
     command = load_data(data_file)
   ),
 
-  tar_target(mean_data, mean_global(world_db))
+  tar_target(mean_data, mean_global(world_db)),
+
+  tar_target(
+    name = small_data,
+    command = load_data(here::here("data", "smallData.csv"))
+  )
 )
