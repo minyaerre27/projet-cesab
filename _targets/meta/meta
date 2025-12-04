@@ -1,0 +1,9 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+world_db|stem|5b6c6146b9d67b29|237276f659722970|d7c0a98926256c0a|-1938967394||t20426.6776129052s|s15010b|15010|rds|local|vector|||0.39||
+mean_data|stem|6780b4658b87cef4|d2c696471e322e87|d59dcf7fb42e7f68|-63937767||t20426.6776138663s|s3046b|3046|rds|local|vector|||0.02||
+download_world_data|function|d79d00a48396f118
+mean_global|function|938ffc2243255548
+load_data|function|2856f3ed88567dfd
+consumption_year|function|fbfd221b36b3ae7d
+data_file|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-679625259|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20426.6791476861s|s107055b|107055|file|local|vector|||0.35||
+small_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1868409821||t20426.6815532589s|s446b|446|rds|local|vector|||0.45||
