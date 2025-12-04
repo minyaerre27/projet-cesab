@@ -9,11 +9,9 @@
 # Setup project ----
 
 ## Install packages ----
-rcompendium::add_dependencies()
+#rcompendium::add_dependencies()
 devtools::install_deps(upgrade = "never")
 
-## Load packages & functions ----
-targets::tar_source()
 
 # source(here::here("analyses", "download_data.R"))
 

@@ -4,6 +4,8 @@ format: html
 ---
 
 ```{r}
+#| echo: true
+#| eval: false
 file.create(".here") #localiser fichiers
 utils::file.edit(here::here("README.md")) # fichier README
 rcompendium::add_description() # fichier description
