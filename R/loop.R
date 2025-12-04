@@ -4,12 +4,16 @@
 #' @return vector of the files directories in the data/folder
 #' @examples
 #' dl_wildfinder_data()
+dstudent <- read.csv("data/smallData.csv")
 
-mean_global <- function(data){
-  data2 = data |>
-    dplyr::filter(nchar(Code)==3) |>
-    dplyr::group_by(Entity, Code) |>
-    dplyr::summarise(conso = mean(sh_alc_pcap_li))
-  return(data2)
+dstudent$alcolemi <- cons_year
+
+loop_correspondance <- function(consom, data){
+  list = rep(0, nrow(data))
+  col = data$conso
+  for(i in 0:length(col)){
+    list[i] = abs(consom - col[i])
+  }
+  pays = data[[which.min(list),1]]
+  return(pays)
 }
-
