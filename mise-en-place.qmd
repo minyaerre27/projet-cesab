@@ -1,0 +1,14 @@
+---
+title: "Mise en place projet CESAB"
+format: html
+---
+
+```{r}
+file.create(".here") #localiser fichiers
+utils::file.edit(here::here("README.md")) # fichier README
+rcompendium::add_description() # fichier description
+rcompendium::add_license(license = "GPL-2") # ajout licence
+rcompendium::add_compendium(
+  compendium = c("data", "analyses", "R", "figures", "outputs")
+) # ajout sous-répertoires
+```
