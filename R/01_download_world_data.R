@@ -1,11 +1,9 @@
-#' Function to download on the the three files from the WWF Wildfinder in the data repository
+#' Function to download the data of alcohol consumption per country
 #'
-#' @param csv_name the name of the ".csv" file that we want to download from datarepo/tree/main/data/wildfinder/
-#' @return vector of the files directories in the data/folder
+#' @param
+#' @return file path in our environment
 #' @examples
-#' dl_wildfinder_data()
-
-#test branches
+#' download_world_data()
 
 download_world_data = function() {
   save_path = here::here("data")
