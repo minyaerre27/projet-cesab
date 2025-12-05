@@ -1,12 +1,8 @@
 # Your Result !
 
-Let's run the code....
+We got a terrible information for you...
 
-```{r}
-#| eval: false
-#| echo: true
+[ajouter figure Ambre]
 
-```
 
-[country name]
 

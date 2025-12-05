@@ -14,9 +14,7 @@ book:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: [cosmo, styles/style.scss]
 
 
 

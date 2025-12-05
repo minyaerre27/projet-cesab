@@ -6,7 +6,7 @@
 
 It is available on [Github](https://github.com/minyaerre27/projet-cesab).
 
-1.  We asked people how many glasses they drank last week by categories.
+1.  [We asked people how many glasses they drank last week by categories.]{.blue}
 
 -   **Beer** (25 cl) 🍺
 -   **Wine** (10 cl) 🍷

@@ -1,7 +1,6 @@
 # Reveal your country !!!
 
 ::: {#fig-alcoholic}
-
 ![](../figures/person.jpeg)
 
 Alcohol is dangerous to your health
@@ -9,5 +8,25 @@ Alcohol is dangerous to your health
 
 Please unter your alcohol consumption of last week in the following table :
 
+::: {#tbl-yourconsumption}
+| Beer | Wine | Apetizer | Liquor |
+|------|------|----------|--------|
+|      |      |          |        |
+
+Number of glasses per category during the last week
+:::
 
 
+From the result in @tbl-yourconsumption we can obtain your country using this code:
+
+
+```{r}
+#| eval: false
+#| echo: true
+
+```
+
+Let's run the code....
+
+
+Go next page to see your result !
