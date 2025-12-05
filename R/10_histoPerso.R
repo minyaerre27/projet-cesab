@@ -9,19 +9,12 @@
 whereAreU <- function(
   year_consumption,
   mean_world_data,
-  pseudonyme = "alcolo"
+  pseudonyme = "pepe"
 ) {
   conso_pseu <- year_consumption$cons_year[
     year_consumption$pseudonyme == pseudonyme
   ]
 
-  countries <- mean_world_data$Entity[
-    abs(mean_world_data$conso - conso_pseu) < 0.5
-  ]
-  listCountries <- ""
-  for (i in countries) {
-    listCountries <- paste(listCountries, i, sep = ".")
-  }
 
   less_countries <- mean_world_data$Entity[abs(
     mean_world_data$conso < conso_pseu
@@ -36,21 +29,17 @@ whereAreU <- function(
     theme_minimal() +
     theme(legend.position = "none") +
     scale_fill_viridis_d() +
+    annotate(geom = "rect", xmin = conso_pseu, xmax = 20, ymin=0, ymax = 16,
+           fill = "white", alpha = 0.5) +
     geom_text(
-      x = 15,
+      x = 10,
       y = 14,
       label = paste0(
-        "You drink more than ",
+        "You drink more than in ",
         per_less_countries,
         "% ",
         "of the countries"
       ),
-      size = 3
-    ) +
-    geom_text(
-      x = conso_pseu + 10,
-      y = 12,
-      label = paste0("You drink like people in", listCountries),
       size = 3
     ) +
     geom_segment(
@@ -58,7 +47,7 @@ whereAreU <- function(
       linetype = "dashed",
       colour = "darkred"
     ) +
-    labs(x = "Annual consommation", y = "Number of countries")
+    labs(x = "Annual consommation (L)", y = "Number of countries")
 
   ggsave(
     here::here("figures", "histo_perso.png"),
