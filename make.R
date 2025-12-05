@@ -9,13 +9,11 @@
 # Setup project ----
 
 ## Install packages ----
-#rcompendium::add_dependencies()
+rcompendium::add_dependencies()
 devtools::install_deps(upgrade = "never")
 
-
-# source(here::here("analyses", "download_data.R"))
 
 targets::tar_make()
 targets::tar_visnetwork()
 
-quarto::quarto_render(".")
+# quarto::quarto_render(".")
