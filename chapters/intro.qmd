@@ -1,3 +1,5 @@
+# How we did it and example {.unnumbered}
+
 # Process
 
 **Interested by the project ?**
@@ -13,7 +15,7 @@ It is available on [Github](https://github.com/minyaerre27/projet-cesab).
 -   **Apetizer** (7 cl) 🍹
 -   **Liquor** (2.5 cl) 🥛
 
-2.  [From those data we estimated the year consumption in consumption_year():]{.blue}
+2.  [From those data we estimated the year consumption usign the function]{.blue} __consumption_year()__[:]{.blue}
 
 ```{r}
 #| eval: false
@@ -37,17 +39,49 @@ consumption_year <- function(data) {
 Alcohol consumption per countries
 :::
 
+# Example on the authors
+
 For example, we did this experiment on the 5 of us:
 
-This is our data:
+__This is our data:__
 
 ```{r}
 #| label: tbl-ourdata
 #| tbl-cap: "Alcohol consumption of the authors"
 #| echo: false
 #| warning: false
-knitr::kable(readr::read_csv("../data/smallData.csv"))
+knitr::kable(readr::read_csv("../data/smallData.csv")[1:5,])
 
 ```
 
-And this is our results
+__And this is our results:__
+
+1. [The following map shows which country is our alcoholic nationality:]{.blue}
+
+::: {#fig-ourmap}
+![](../figures/group_figs/map_alcohol.png)
+
+Our alcoholic nationality map
+:::
+
+2. [We wondered how much we diverged from our resident country (we are almost all from France oui oui baguette):]{.blue}
+
+::: {#fig-ourmap}
+![](../figures/group_figs/country_diff.png)
+
+How we diverge.
+:::
+
+__As you can see we are all Africans and we are under the French consumption !!__
+
+3. [Let see how]{.blue} __peu_importe__ [diverge from all countries.]{.blue}
+
+::: {#fig-ourmap}
+![](../figures/group_figs/histo_perso.png)
+
+How we diverge.
+:::
+
+__Pepe__ has a moderate alcohol consumption.
+
+[__Do you wanna try ?? Go next page__]{.blue}

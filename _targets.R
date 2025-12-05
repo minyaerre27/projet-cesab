@@ -63,13 +63,15 @@ list(
     name = plot_diff_countries,
     command = plot_diff_pays(data_pays_diff)
   ),
-
   tar_target(
     name = plot_histo_perso,
     command = whereAreU(
       year_consumption,
       mean_world_data,
-      pseudonyme = "peuimporte"
+      pseudonyme = "pepe"
     )
   )
+
+  # ,
+  # tarchetypes::tar_quarto(report, priority = 0)
 )
