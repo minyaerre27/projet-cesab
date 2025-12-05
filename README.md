@@ -37,6 +37,44 @@ This tool provides:
 
 ---
 
+## Content
+
+This project is structured as follow:
+
+```
+.
+├─ README.md                                  # Presentation of the project
+├─ DESCRIPTION                                # Project metadata
+├─ LICENSE.md                                 # License of the project
+|
+├─ data/                                      # Contains raw data
+|  ├─ alcohol_per_country.csv                 # Reference dataset
+|  ├─ smallData.csv                           # Dummy dataset
+|
+├─ R/                                         # Contains R functions (only)
+|  ├─ 01_download_world_data.R                # Download country data  
+|  ├─ 02_load_world_data.R                    # Load country data
+|  ├─ 03_mean.R                               # Mean alcohol per country
+|  ├─ 04_calcul_alcool.R                      # Calculate alcohol cons.
+|  ├─ 05_pays_similaire.R                     # ID your most similar country
+|  ├─ 06_import_spatial_countries.R           # Import spatial data
+|  ├─ 07_join_countries.R                     # Join data
+|  ├─ 08_diff_ton_pays.R                      # Compare to your country
+|  ├─ 09_plot.R                               # Plot comparison to your country
+|  └─ loop.R
+
+├─ analyses/                                  # Contains R scripts
+|  └─ mise-en-place.qmd                       # Script to create the compendium
+|
+├─ docs
+|
+├─ index.qmd
+|
+├─ _targets.R
+└─ make.R                                     # Script to setup & run the project
+```
+---
+
 ## Contributing
 Contributions are welcome!  
 Please fork the repository, create a feature branch, and submit a pull request.  
