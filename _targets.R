@@ -5,7 +5,6 @@ library(ggplot2)
 targets::tar_source()
 
 list(
-
   # get path file world data
   tar_target(
     name = data_file,
@@ -26,6 +25,7 @@ list(
   ),
 
   # get mean alcohol values per country
-  tar_target(mean_data, mean_global(world_db))
+  tar_target(mean_data, mean_global(world_db)),
 
+  tar_target(name = year_consumption, command = consumption_year)
 )
