@@ -17,12 +17,14 @@ list(
     command = load_data(data_file)
   ),
 
+  # get mean alcohol values per country
   tar_target(mean_data, mean_global(world_db)),
 
+  # load small data
   tar_target(
     name = small_data,
     command = load_data(here::here("data", "smallData.csv"))
-  ),
+  )
 
   # get mean alcohol values per country
   tar_target(mean_data, mean_global(world_db)),
