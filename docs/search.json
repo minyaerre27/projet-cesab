@@ -24,7 +24,7 @@
     "href": "chapters/Reveal_your_country.html",
     "title": "2  Reveal your country !!!",
     "section": "",
-    "text": "Figure 2.1: Alcohol is dangerous to your health\n\n\n\nPlease unter your alcohol consumption of last week in the following table :\n\n\n\nTable 2.1: Number of glasses per category during the last week\n\n\n\n\n\nBeer\nWine\nApetizer\nLiquor",
+    "text": "&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD ::: {#fig-alcoholic} \nAlcohol is dangerous to your health :::\nPlease unter your alcohol consumption of last week in the following table :\n\n\n\nTable 2.1: Number of glasses per category during the last week\n\n\n\n\n\nBeer\nWine\nApetizer\nLiquor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom the result in Table 2.1 we can obtain your country using this code:\nLet’s run the code….\n\n3 Go next page to see your result !\n\n\n\n\n\n\n\n\n\n\norigin/dev_Franck",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reveal your country !!!</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "chapters/summary.html",
     "title": "3  Your Result !",
     "section": "",
-    "text": "From the result in Table 2.1.\nLet’s run the code….\n[country name]",
+    "text": "We got a terrible information for you…\n[ajouter figure Ambre]",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Your Result !</span>"
     ]

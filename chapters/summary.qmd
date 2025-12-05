@@ -1,8 +1,11 @@
 # Your Result !
 
-We got a terrible information for you...
+[__We got a terrible information for you...__]{.red}
 
-[ajouter figure Ambre]
+ajouter image Ambre
 
+::: {#fig-alcoholic}
+![](../figures/not_proud.jpeg)
 
-
+Alcohol is dangerous to your health
+:::
