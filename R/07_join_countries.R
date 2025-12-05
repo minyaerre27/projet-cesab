@@ -7,7 +7,7 @@
 #' join_countries()
 
 join_countries = function(spatial_countries, result_countries) {
-  spatial_results = result_countries |>
-    dplyr::left_join(spatial_countries, by = dplyr::join_by(Code == ISO3))
+  spatial_results = spatial_countries |>
+    dplyr::left_join(result_countries, by = dplyr::join_by(ISO3 == Code))
   return(spatial_results)
 }
