@@ -37,9 +37,11 @@ consumption_year <- function(data) {
 Alcohol consumption per countries
 :::
 
+# Example on the authors
+
 For example, we did this experiment on the 5 of us:
 
-This is our data:
+__This is our data:__
 
 ```{r}
 #| label: tbl-ourdata
@@ -50,4 +52,12 @@ knitr::kable(readr::read_csv("../data/smallData.csv"))
 
 ```
 
-And this is our results
+__And this is our results:__
+
+1. [The following map shows which country in our alcoholic nationality:]{.blue}
+
+
+2. [We wondered how much we diverged from our resident country (we are all from France oui oui baguette):]{.blue}
+
+
+[__Do you wanna try ?? Go next page__]{.blue}
