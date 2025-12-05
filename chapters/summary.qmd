@@ -1,3 +1,15 @@
-# Summary
+# Your Result !
 
-In summary, this book has no content whatsoever.
+[__We got a terrible information for you...__]{.red}
+
+ajouter image Ambre
+
+::: {#fig-alcoholic}
+![](../figures/not_proud.jpeg)
+
+You should see someone for your addiction...
+:::
+
+
+
+__THE END__

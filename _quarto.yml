@@ -10,12 +10,11 @@ book:
     - index.qmd
     - chapters/intro.qmd
     - chapters/Reveal_your_country.qmd
+    - chapters/summary.qmd
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: [cosmo, styles/style.scss]
 
 
 
