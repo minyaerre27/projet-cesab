@@ -66,6 +66,10 @@ list(
 
   tar_target(
     name = plot_histo_perso,
-    command = whereAreU(year_consumption, mean_world_data)
+    command = whereAreU(
+      year_consumption,
+      mean_world_data,
+      pseudonyme = "peuimporte"
+    )
   )
 )
