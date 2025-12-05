@@ -1,4 +1,4 @@
-# The bumby road to success {.unnumbered}
+# The bumpy road to success {.unnumbered}
 
 ::: {#fig-git layout-nrow=4}
 
@@ -9,6 +9,12 @@
 ![2](/figures/git2.png){#fig-git2}
 
 ![1](/figures/git1.png){#fig-git1}
+
+:::
+
+::: {#fig-tar}
+
+![](/figures/tarVis.png)
 
 :::
 
