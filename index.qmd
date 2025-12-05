@@ -1,5 +1,8 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+This is a Quarto presentation that determines your nationality based on your annual alcohol consumption.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+![https://www.ameli.fr/](figures/Conso.jpeg)
+
+Let's go...
+

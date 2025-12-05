@@ -20,4 +20,6 @@ Imports:
     dplyr,
     here,
     readr,
+    sf,
+    spData,
     utils

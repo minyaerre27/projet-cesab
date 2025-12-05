@@ -84,4 +84,4 @@ Make sure to follow reproducibility and FAIR principles (Findable, Accessible, I
 
 ## License
 This project is licensed under the XXX License.  
-See the [LICENSE](LICENSE) file for details.
+See the [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-4.0/) file for details.
