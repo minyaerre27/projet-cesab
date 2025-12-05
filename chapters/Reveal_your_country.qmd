@@ -1,4 +1,4 @@
-# Reveal your country !!!
+# Reveal your country !!! {.unnumbered}
 
 ::: {#fig-alcoholic}
 ![](../figures/person.jpeg)
@@ -9,25 +9,44 @@ Alcohol is dangerous to your health
 Please unter your alcohol consumption of last week in the following table :
 
 ::: {#tbl-yourconsumption}
-| Beer | Wine | Apetizer | Liquor |
-|------|------|----------|--------|
-|   X  |   X  |   X      |    X   |
+| Beer | Wine | Apetizer | Liquor |Country|
+|------|------|----------|--------|-------|
+|  15  |  10  |    5     |   1    |France |
 
 Number of glasses per category during the last week
 :::
 
 
-From the result in @tbl-yourconsumption we can obtain your country using this code:
+From the result in @tbl-yourconsumption we can obtain your country using the function __pays_similaire()__:
 
 
 ```{r}
 #| eval: false
 #| echo: true
-waiting for the code
+pays_similaire <- function(small_data, world_data) {
+  dataMerged <- merge(small_data, world_data)
+
+  data_pays_simi <- dataMerged |>
+    dplyr::mutate(diff.per = abs(cons_year - conso)) |>
+    dplyr::group_by(id) |>
+    dplyr::mutate(minDiff = min(diff.per)) |>
+    dplyr::filter(diff.per == minDiff) |>
+    dplyr::select(
+      id,
+      age,
+      pseudonyme,
+      Entity,
+      country.residence,
+      Code,
+      conso,
+      cons_year
+    )
+  return(data_pays_simi)
+}
 ```
 
 Let's run the code....
 
 
-Go next page to see your result !
+__Go next page to see your result !__
 

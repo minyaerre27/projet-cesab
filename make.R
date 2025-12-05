@@ -16,4 +16,4 @@ devtools::install_deps(upgrade = "never")
 targets::tar_make()
 targets::tar_visnetwork()
 
-# quarto::quarto_render(".")
+quarto::quarto_render(".")
