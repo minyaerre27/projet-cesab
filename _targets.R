@@ -52,5 +52,10 @@ list(
   tar_target(
     name = spatial_results,
     command = join_countries(spatial_countries, data_pays_simi)
+  ),
+
+  tar_target(
+    name = plot_map_results,
+    command = plot_map(spatial_results)
   )
 )
