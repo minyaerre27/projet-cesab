@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Alcohol consumption per country",
     "section": "",
-    "text": "Preface\nThis is a Quarto presentation that determines your nationality based on your annual alcohol consumption.\n\n\n\nhttps://www.ameli.fr/",
+    "text": "Preface\nThis is a Quarto presentation that determines your nationality based on your annual alcohol consumption.\n\n\n\nhttps://www.ameli.fr/\n\n\nLet’s go…",
     "crumbs": [
       "Preface"
     ]
@@ -14,7 +14,17 @@
     "href": "chapters/intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "text": "1.1 Process\nInterested by the project ?\nRCompendium was used to realise this project. It is vailable at: [github]\nconsumption_year &lt;- function(data) {\n    alcool_wine &lt;- data$wine * 0.12 * 0.1 # wine conversion\n    alcool_beer &lt;- data$beers * 0.05 * 0.25 # beer conversion\n    alcool_liquor &lt;- data$liquor * 0.4 * 0.025 # liquor conversion\n    alcool_apetizer &lt;- data$apetizer * 0.18 * 0.07 # apetizer conversion\n    cons_week &lt;- alcool_wine + alcool_beer + alcool_liquor + alcool_apetizer # estimated consommation per week\n    cons_year &lt;- cons_week * 52 # estimated consommation per year\n    data |&gt; dplyr::mutate(cons_year)\n}",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/intro.html#process",
+    "href": "chapters/intro.html#process",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "We asked people how many glasses they drank last week by categories.\n\n\nBeer (25 cl)\nWine (10 cl)\nApetizer (7 cl)\nLiquor (2.5 cl)\n\n\nFrom those data we estimated the year consumption in consumption_year():\n\n\n\nWhen giving your weekly consommation, we will estimate which country best suit you ! It will be your alcoholic country !\n\n\n\n\n\n\n\nFigure 1.1: Alcohol consumption per countries",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]

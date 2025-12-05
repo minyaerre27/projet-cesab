@@ -33,9 +33,9 @@ consumption_year <- function(data) {
 
 ::: {#fig-countries}
 
-![](surus.png)
+![](../figures/map.jpeg)
 
-Famous Elephants
+Alcohol consumption per countries
 :::
 
 
