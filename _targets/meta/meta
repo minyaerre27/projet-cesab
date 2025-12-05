@@ -1,4 +1,5 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+<<<<<<< HEAD
 mean_data|stem|6780b4658b87cef4|d2c696471e322e87|d59dcf7fb42e7f68|-63937767||t20426.6776138663s|s3046b|3046|rds|local|vector|||0.02||
 data_file|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-679625259|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20426.6791476861s|s107055b|107055|file|local|vector|||0.35||
 small_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1868409821||t20426.6815532589s|s446b|446|rds|local|vector|||0.45||
@@ -10,6 +11,8 @@ spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-15719
 <<<<<<< HEAD
 =======
 >>>>>>> origin/devMinya
+=======
+>>>>>>> origin/main
 plot_diff_pays|function|b194b536069a37f2
 loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|f346c5cb5608b2ba
@@ -26,6 +29,7 @@ join_countries|function|9422540371aaec27
 report|stem||aeb496ff83eb363a|2c530c1562a7fbd1|787668912||t20427.44755112s||0|file|local|vector|||5.11||! Error running quarto CLI from R. Caused by error: ✖ Error returned by quarto CLI. ℹ Rerun with `quiet = FALSE` to see the full error message. Caused by error: ! System command 'quarto.exe' failed
 =======
 join_countries|function|fee66a1a92847e7b
+<<<<<<< HEAD
 personal_data|stem|49443ba8233eceb1|0d7f5be69396a29c|10ffc8eac17fdf23|1481290618||t20427.4717670923s|s496b|496|rds|local|vector|||1.73||
 world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6072ce7dddbddcd1|-1938967394||t20427.4717684112s|s15010b|15010|rds|local|vector|||0.05||
 year_consumption|stem|000725aadb1450b0|a5281f1076a5220a|9580aa112bfad402|-1086324074||t20427.4717692359s|s444b|444|rds|local|vector|||0||
@@ -35,3 +39,17 @@ plot_histo_perso|stem|de50f2e63506b95c|9b9f3d81258089a2|3faf567cc19ba4b1|-141001
 plot_diff_countries|stem|2e7f9d5743866f9a|76b1e6a2a8749956|8f89294fe151f31d|-1903403028||t20427.4717936982s|s399131b|399131|rds|local|vector|||0.54||
 spatial_results|stem|675a74939d7378f7|21c5e84d0cd2315b|cf74a30db3fb30da|-2049970484||t20427.4717950276s|s143752b|143752|rds|local|vector|||0||
 plot_map_results|stem|31b2f51d7351812c|edfc4d579c9f5932|fdc25a11de7f4f8e|1601944216||t20427.4718042945s|s960755b|960755|rds|local|vector|||0.56||
+=======
+spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-1571917652||t20427.4906933333s|s143151b|143151|rds|local|vector|||0.61||
+world_data_path|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-822662269|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20427.4906991857s|s107055b|107055|file|local|vector|||0.45||
+personal_data|stem|b39ce4164ad8a310|0d7f5be69396a29c|10ffc8eac17fdf23|1481290618||t20427.49070052s|s458b|458|rds|local|vector|||0.01||
+world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6072ce7dddbddcd1|-1938967394||t20427.4907011345s|s15010b|15010|rds|local|vector|||0.02||
+year_consumption|stem|b4bf09ba86931c9e|a5281f1076a5220a|ffa063c08b5da0f4|-1086324074||t20427.4907019435s|s388b|388|rds|local|vector|||0.05||
+mean_world_data|stem|46db86c99a7a649c|d2c696471e322e87|cad7fecb3f277a2d|-80083802||t20427.4907030154s|s4017b|4017|rds|local|vector|||0.05||
+data_pays_diff|stem|a4d7003d94e27968|ce00ea5e4b2e2c71|be52e828b17e89fd|625880944||t20427.4907038193s|s473b|473|rds|local|vector|||0.03||
+data_pays_simi|stem|527e88c3b3b8ce75|e1edbabc2461287c|3e1aa2558d20682c|-1387688310||t20427.4907047717s|s611b|611|rds|local|vector|||0||
+plot_histo_perso|stem|ff17cbd80f428ddc|78a22fbcb68e9267|0086b11b16bd2a81|-1410010656||t20427.4907171472s|s418069b|418069|rds|local|vector|||0.83||
+plot_diff_countries|stem|6f79066ed063241a|76b1e6a2a8749956|b8a32bf5d55ce569|-1903403028||t20427.4907271651s|s398833b|398833|rds|local|vector|||0.47||
+spatial_results|stem|3dba31b18dfad1af|21c5e84d0cd2315b|8fab802e91d5249c|-2049970484||t20427.4907281022s|s143658b|143658|rds|local|vector|||0.03||
+plot_map_results|stem|901e570e0825257c|edfc4d579c9f5932|23ff12c87fff4410|1601944216||t20427.4907372103s|s960358b|960358|rds|local|vector|||0.53||
+>>>>>>> origin/main
