@@ -19,7 +19,7 @@ list(
   ),
 
   # get mean alcohol conusmption values per country
-  tar_target(mean_world_data, mean_global(world_db)),
+  tar_target(name = mean_world_data, command = mean_global(world_db)),
 
   # load personal data
   tar_target(
@@ -28,5 +28,13 @@ list(
   ),
 
   # compute the yearly consumption of the participants
-  tar_target(name = year_consumption, command = consumption_year(personal_data))
+  tar_target(
+    name = year_consumption,
+    command = consumption_year(personal_data)
+  ),
+
+  tar_target(
+    name = data_pays_simi,
+    command = pays_similaire(year_consumption, mean_world_data)
+  )
 )

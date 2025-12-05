@@ -1,10 +1,20 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-world_db|stem|5b6c6146b9d67b29|237276f659722970|d7c0a98926256c0a|-1938967394||t20426.6776129052s|s15010b|15010|rds|local|vector|||0.39||
 mean_data|stem|6780b4658b87cef4|d2c696471e322e87|d59dcf7fb42e7f68|-63937767||t20426.6776138663s|s3046b|3046|rds|local|vector|||0.02||
-download_world_data|function|d79d00a48396f118
-mean_global|function|938ffc2243255548
-load_data|function|2856f3ed88567dfd
-consumption_year|function|fbfd221b36b3ae7d
 data_file|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-679625259|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20426.6791476861s|s107055b|107055|file|local|vector|||0.35||
 small_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1868409821||t20426.6815532589s|s446b|446|rds|local|vector|||0.45||
 
+world_data_path|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-822662269|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20427.3519847884s|s107055b|107055|file|local|vector|||0.54||
+personal_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1481290618||t20427.3519910921s|s446b|446|rds|local|vector|||0.41||
+world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6701c9efcc94a924|-1938967394||t20427.3519934514s|s15010b|15010|rds|local|vector|||0.11||
+year_consumption|stem|b0c031ec35ed7d3d|a5281f1076a5220a|186c29dbe639f516|-1086324074||t20427.3539055579s|s521b|521|rds|local|vector|||0||
+mean_world_data|stem|46db86c99a7a649c|d2c696471e322e87|cad7fecb3f277a2d|-80083802||t20427.3539083272s|s4017b|4017|rds|local|vector|||0.08||
+loop_correspondance|function|0a56e8180c5b2311
+import_spatial_countries|function|fa95f526be7bdb83
+download_world_data|function|d79d00a48396f118
+mean_global|function|8a3ed2255572f6d8
+pays_similaire|function|81e404428917d4ce
+diff_ton_pays|function|88cec24479a503df
+load_data|function|2856f3ed88567dfd
+consumption_year|function|e6f15ecba65ac876
+join_countries|function|a34a6741a118dd51
+data_pays_simi|stem|26382c6fdf4471e5|e1edbabc2461287c|18c3da697fc99b73|-1387688310||t20427.3635668426s|s431b|431|rds|local|vector|||0.09||
