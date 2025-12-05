@@ -40,7 +40,7 @@ whereAreU <- function(
         "% ",
         "of the countries"
       ),
-      size = 3
+      size = 6
     ) +
     geom_segment(
       aes(x = conso_pseu, xend = conso_pseu, y = -2, yend = 12),
