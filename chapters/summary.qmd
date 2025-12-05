@@ -10,13 +10,15 @@
 Our alcoholic nationality map
 :::
 
-2. [How much do you diverge from your resident country:]{.blue}
+2. [How much do you diverge from all countries:]{.blue}
 
-::: {#fig-ourmap}
-![](../figures/country_diff.png)
+::: {#fig-yourhisto}
+![](../figures/histo_perso.png)
 
-How we diverge.
+Where are you.
 :::
+
+[__Your are so out !!! It is alarming.__]{.red}
 
 ::: {#fig-alcoholic}
 ![](../figures/not_proud.jpeg)
