@@ -1,5 +1,6 @@
 library(targets)
 library(ggplot2)
+library(sf)
 
 ## Load packages & functions ----
 targets::tar_source()
@@ -41,5 +42,20 @@ list(
   tar_target(
     name = data_pays_diff,
     command = diff_ton_pays(year_consumption, mean_world_data)
+  ),
+
+  tar_target(
+    name = spatial_countries,
+    command = import_spatial_countries()
+  ),
+
+  tar_target(
+    name = spatial_results,
+    command = join_countries(spatial_countries, data_pays_simi)
+  ),
+
+  tar_target(
+    name = plot_map_results,
+    command = plot_map(spatial_results)
   )
 )

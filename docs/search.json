@@ -12,11 +12,31 @@
   {
     "objectID": "chapters/intro.html",
     "href": "chapters/intro.html",
-    "title": "1  Introduction",
+    "title": "1  Process",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee @knuth84 for additional discussion of literate programming.",
+    "text": "Interested by the project ?\nRCompendium was used to realise this project.\nIt is available on Github.\n\nWe asked people how many glasses they drank last week by categories.\n\n\nBeer (25 cl) 🍺\nWine (10 cl) 🍷\nApetizer (7 cl) 🍹\nLiquor (2.5 cl) 🥛\n\n\nFrom those data we estimated the year consumption in consumption_year():\n\n\nconsumption_year &lt;- function(data) {\n    alcool_wine &lt;- data$wine * 0.12 * 0.1 # wine conversion\n    alcool_beer &lt;- data$beers * 0.05 * 0.25 # beer conversion\n    alcool_liquor &lt;- data$liquor * 0.4 * 0.025 # liquor conversion\n    alcool_apetizer &lt;- data$apetizer * 0.18 * 0.07 # apetizer conversion\n    cons_week &lt;- alcool_wine + alcool_beer + alcool_liquor + alcool_apetizer # estimated consommation per week\n    cons_year &lt;- cons_week * 52 # estimated consommation per year\n    data |&gt; dplyr::mutate(cons_year)\n}\n\n\nWhen giving your weekly consommation, we will estimate which country best suit you ! It will be your alcoholic country (see Figure 1.1) !\n\n\n\n\n\n\n\nFigure 1.1: Alcohol consumption per countries\n\n\n\nFor example, we did this experiment on the 5 of us:\nThis is our data:\n\n\n\n\nTable 1.1: Alcohol consumption of the authors\n\n\n\n\n\n\nid\npseudonyme\nage\ncountry.residence\nbeers\nwine\nliquor\napetizer\n\n\n\n\n1\npepe\n26\nFrance\n6\n6\n0\n2\n\n\n2\ntenayuco\n33\nFrance\n8\n1\n2\n0\n\n\n3\nopif\n24\nFrance\n4\n1\n0\n0\n\n\n4\ngalera\n22\nFrance\n5\n1\n0\n1\n\n\n5\npeuimporte\n52\nFrance\n0\n2\n0\n0",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Process</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/Reveal_your_country.html",
+    "href": "chapters/Reveal_your_country.html",
+    "title": "2  Reveal your country !!!",
+    "section": "",
+    "text": "Figure 2.1: Alcohol is dangerous to your health\n\n\n\nPlease unter your alcohol consumption of last week in the following table :\n\n\n\nTable 2.1: Number of glasses per category during the last week\n\n\n\n\n\nBeer\nWine\nApetizer\nLiquor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFrom the result in Table 2.1 we can obtain your country using this code:\nLet’s run the code….\nGo next page to see your result !",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Reveal your country !!!</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/summary.html",
+    "href": "chapters/summary.html",
+    "title": "3  Your Result !",
+    "section": "",
+    "text": "We got a terrible information for you…\najouter image Ambre\n\n\n\n\n\n\nFigure 3.1: You should see someone for your addiction…\n\n\n\nTHE END",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Your Result !</span>"
     ]
   }
 ]
