@@ -57,5 +57,19 @@ list(
   tar_target(
     name = plot_map_results,
     command = plot_map(spatial_results)
+  ),
+
+  tar_target(
+    name = plot_diff_countries,
+    command = plot_diff_pays(data_pays_diff)
+  ),
+
+  tar_target(
+    name = plot_histo_perso,
+    command = whereAreU(
+      year_consumption,
+      mean_world_data,
+      pseudonyme = "peuimporte"
+    )
   )
 )

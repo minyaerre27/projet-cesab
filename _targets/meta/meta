@@ -4,32 +4,29 @@ data_file|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-679625259|C:/
 small_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1868409821||t20426.6815532589s|s446b|446|rds|local|vector|||0.45||
 
 world_data_path|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-822662269|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20427.3519847884s|s107055b|107055|file|local|vector|||0.54||
-personal_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1481290618||t20427.3519910921s|s446b|446|rds|local|vector|||0.41||
-world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6701c9efcc94a924|-1938967394||t20427.3519934514s|s15010b|15010|rds|local|vector|||0.11||
-year_consumption|stem|b0c031ec35ed7d3d|a5281f1076a5220a|186c29dbe639f516|-1086324074||t20427.3539055579s|s521b|521|rds|local|vector|||0||
 mean_world_data|stem|46db86c99a7a649c|d2c696471e322e87|cad7fecb3f277a2d|-80083802||t20427.3539083272s|s4017b|4017|rds|local|vector|||0.08||
-data_pays_diff|stem|9af5a7e36dc3a4da|ce00ea5e4b2e2c71|edb7c16d5d8000b2|625880944||t20427.396515916s|s450b|450|rds|local|vector|||0.13||
-data_pays_simi|stem|57a3fe1ec9b752cc|e1edbabc2461287c|f367bbe0c7342f96|-1387688310||t20427.3965166706s|s604b|604|rds|local|vector|||0.02||
 spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-1571917652||t20427.4157032064s|s143151b|143151|rds|local|vector|||0.33||
-spatial_results|stem|c0b1a00d190ff800|21c5e84d0cd2315b|2ef4425f967cf943|-2049970484||t20427.4332201751s|s143591b|143591|rds|local|vector|||0||
+<<<<<<< HEAD
+=======
+>>>>>>> origin/devMinya
+world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6072ce7dddbddcd1|-1938967394||t20427.4717684112s|s15010b|15010|rds|local|vector|||0.05||
+plot_diff_pays|function|b194b536069a37f2
 loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|f346c5cb5608b2ba
 download_world_data|function|d79d00a48396f118
 mean_global|function|8a3ed2255572f6d8
-<<<<<<< HEAD
 pays_similaire|function|27460da722882eec
-plot_map|function|2e58b5e0203cf91d
-whereAreU|function|03cb3efdcc6c8623
-diff_ton_pays|function|0d4efa6d340cdb84
-load_data|function|2856f3ed88567dfd
-consumption_year|function|e6f15ecba65ac876
-join_countries|function|9422540371aaec27
-plot_map_results|stem|435e3168627b6590|edfc4d579c9f5932|e11f6dc07f05cf3b|1601944216||t20427.4396087315s|s694436b|694436|rds|local|vector|||0.06||
-=======
-pays_similaire|function|81e404428917d4ce
+plot_map|function|4e7a955a3a73df97
+whereAreU|function|efd8fcf755077e4f
 diff_ton_pays|function|66fa04bb167cbb4a
-load_data|function|2856f3ed88567dfd
+load_data|function|60d0d43a4994cc4d
 consumption_year|function|e6f15ecba65ac876
-join_countries|function|a34a6741a118dd51
-data_pays_diff|stem|9bcad1949c245930|ce00ea5e4b2e2c71|d811627eb8cd1d80|625880944||t20427.4119714036s|s516b|516|rds|local|vector|||0.028||
->>>>>>> origin/devMinya
+join_countries|function|fee66a1a92847e7b
+personal_data|stem|e9d0a788b72ed51c|0d7f5be69396a29c|10ffc8eac17fdf23|1481290618||t20427.4784697319s|s481b|481|rds|local|vector|||0.19||
+year_consumption|stem|88f11a7bcf7b2f8e|a5281f1076a5220a|8fdcc876c2488957|-1086324074||t20427.4784706361s|s420b|420|rds|local|vector|||0.02||
+data_pays_diff|stem|7cc8c0bd5b9ae19f|ce00ea5e4b2e2c71|cb32b8f2d3df443b|625880944||t20427.4784714341s|s512b|512|rds|local|vector|||0.01||
+data_pays_simi|stem|b4760172878b71ff|e1edbabc2461287c|24871563d8ffced9|-1387688310||t20427.4784719406s|s658b|658|rds|local|vector|||0.02||
+plot_histo_perso|stem|dd55db5f26f52014|d40ffa12a606b6e0|a31979a641e14dcc|-1410010656||t20427.4784840975s|s418214b|418214|rds|local|vector|||0.81||
+plot_diff_countries|stem|7827bb8141d0c783|76b1e6a2a8749956|4ac6cfda125fec1f|-1903403028||t20427.478492769s|s398924b|398924|rds|local|vector|||0.53||
+spatial_results|stem|63dd1b655c1a15f3|21c5e84d0cd2315b|5d5f7e908e5659b6|-2049970484||t20427.4784936665s|s143696b|143696|rds|local|vector|||0||
+plot_map_results|stem|fb90aefdc9202e30|edfc4d579c9f5932|b8cd79d3521e26d1|1601944216||t20427.4785030856s|s960545b|960545|rds|local|vector|||0.57||
