@@ -16,6 +16,7 @@ loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|f346c5cb5608b2ba
 download_world_data|function|d79d00a48396f118
 mean_global|function|8a3ed2255572f6d8
+<<<<<<< HEAD
 pays_similaire|function|27460da722882eec
 plot_map|function|2e58b5e0203cf91d
 whereAreU|function|03cb3efdcc6c8623
@@ -24,3 +25,11 @@ load_data|function|2856f3ed88567dfd
 consumption_year|function|e6f15ecba65ac876
 join_countries|function|9422540371aaec27
 plot_map_results|stem|435e3168627b6590|edfc4d579c9f5932|e11f6dc07f05cf3b|1601944216||t20427.4396087315s|s694436b|694436|rds|local|vector|||0.06||
+=======
+pays_similaire|function|81e404428917d4ce
+diff_ton_pays|function|66fa04bb167cbb4a
+load_data|function|2856f3ed88567dfd
+consumption_year|function|e6f15ecba65ac876
+join_countries|function|a34a6741a118dd51
+data_pays_diff|stem|9bcad1949c245930|ce00ea5e4b2e2c71|d811627eb8cd1d80|625880944||t20427.4119714036s|s516b|516|rds|local|vector|||0.028||
+>>>>>>> origin/devMinya

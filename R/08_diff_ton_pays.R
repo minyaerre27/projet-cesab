@@ -18,7 +18,8 @@ diff_ton_pays <- function(small_data, world_data) {
       pseudonyme,
       country.residence,
       diff.meanCountry,
-      conso
+      conso,
+      cons_year
     )
 
   return(data_diff_ton_pays)
