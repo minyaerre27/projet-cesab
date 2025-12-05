@@ -72,5 +72,6 @@ list(
     )
   )
 
-  #,tarchetypes::tar_quarto(report, priority = 0)
+  # ,
+  # tarchetypes::tar_quarto(report, priority = 0)
 )
