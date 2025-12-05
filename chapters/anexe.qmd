@@ -1,0 +1,14 @@
+# The bumby road to success {.unnumbered}
+
+::: {#fig-git layout-nrow=4}
+
+![4](/figures/git4.png){#fig-git4}
+
+![3](/figures/git3.png){#fig-git3}
+
+![2](/figures/git2.png){#fig-git2}
+
+![1](/figures/git1.png){#fig-git1}
+
+:::
+
