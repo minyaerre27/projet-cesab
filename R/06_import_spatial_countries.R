@@ -6,6 +6,14 @@
 #' import_spatial_countries()
 
 import_spatial_countries = function() {
-  db = spData::world |> dplyr::select(iso_a2, name_long, geom)
-  return(db)
+  db_with_codes = readr::read_csv(
+    here::here("data", "country_codes.csv"),
+    show_col_types = FALSE
+  )
+
+  db = spData::world |>
+    dplyr::select(iso_a2, name_long, geom) |>
+    dplyr::left_join(db_with_codes, by = dplyr::join_by(iso_a2 == ISO2)) |>
+    dplyr::select(iso_a2, name_long, geom, ISO3)
+  return(sf::st_as_sf(db))
 }
