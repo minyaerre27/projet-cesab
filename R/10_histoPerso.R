@@ -6,9 +6,11 @@
 #' @return the plot
 #' @examples pseudonyme = tenayuco, year_consumption, mean_world_data
 
-
-whereAreU <- function(year_consumption, mean_world_data, pseudonyme) {
-  pseudonyme <- "tenayuco"
+whereAreU <- function(
+  year_consumption,
+  mean_world_data,
+  pseudonyme = "tenayuco"
+) {
   conso_pseu <- year_consumption$cons_year[
     year_consumption$pseudonyme == pseudonyme
   ]
@@ -58,5 +60,11 @@ whereAreU <- function(year_consumption, mean_world_data, pseudonyme) {
     ) +
     labs(x = "Annual consommation", y = "Number of countries")
 
+  ggsave(
+    here::here("figures", "histo_perso.png"),
+    plot = plot1,
+    width = 14,
+    height = 7
+  )
   return(plot1)
 }
