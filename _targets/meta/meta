@@ -12,6 +12,8 @@ plot_diff_countries|stem|09f6f1714a5dcb01|76b1e6a2a8749956|234af4a4ff94f0d7|-190
 spatial_results|stem|b70650cf15bfbd9c|21c5e84d0cd2315b|8b18387ed773b1bc|-2049970484||t20427.5011539653s|s143653b|143653|rds|local|vector|||0||
 plot_map_results|stem|af16a2e6bbac8f3d|edfc4d579c9f5932|5fc2e4adfaedf209|1601944216||t20427.50116261s|s960333b|960333|rds|local|vector|||0.53||
 report|stem||aeb496ff83eb363a|2c530c1562a7fbd1|787668912||t20427.5075031009s||0|file|local|vector|||4.43||! Error running quarto CLI from R. Caused by error: ✖ Error returned by quarto CLI. ℹ Rerun with `quiet = FALSE` to see the full error message. Caused by error: ! System command 'quarto.exe' failed
+report|stem||aeb496ff83eb363a|2c530c1562a7fbd1|787668912||t20427.44755112s||0|file|local|vector|||5.11||! Error running quarto CLI from R. Caused by error: ✖ Error returned by quarto CLI. ℹ Rerun with `quiet = FALSE` to see the full error message. Caused by error: ! System command 'quarto.exe' failed
+>>>>>>> origin/devPerrine
 plot_diff_pays|function|b194b536069a37f2
 loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|f346c5cb5608b2ba
