@@ -1,19 +1,4 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-1571917652||t20427.5011209698s|s143151b|143151|rds|local|vector|||0.32||
-world_data_path|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-822662269|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20427.5011260988s|s107055b|107055|file|local|vector|||0.35||
-personal_data|stem|25e14243f607c9ff|0d7f5be69396a29c|10ffc8eac17fdf23|1481290618||t20427.501126997s|s457b|457|rds|local|vector|||0.01||
-world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6072ce7dddbddcd1|-1938967394||t20427.501127605s|s15010b|15010|rds|local|vector|||0.02||
-year_consumption|stem|1262d490a7d86df7|a5281f1076a5220a|e28220ada06c338e|-1086324074||t20427.5011282414s|s388b|388|rds|local|vector|||0.01||
-mean_world_data|stem|46db86c99a7a649c|d2c696471e322e87|cad7fecb3f277a2d|-80083802||t20427.5011292772s|s4017b|4017|rds|local|vector|||0.03||
-data_pays_diff|stem|82c07a8b092daa89|ce00ea5e4b2e2c71|c0de37194ddef457|625880944||t20427.5011296638s|s529b|529|rds|local|vector|||0.02||
-data_pays_simi|stem|93a7a86e95e62408|e1edbabc2461287c|b419b73f199caa3e|-1387688310||t20427.5011300433s|s611b|611|rds|local|vector|||0.02||
-plot_histo_perso|stem|bae5b1cd1ddb3c16|78a22fbcb68e9267|c8607fb4db8284ec|-1410010656||t20427.5011423813s|s418065b|418065|rds|local|vector|||0.86||
-plot_diff_countries|stem|09f6f1714a5dcb01|76b1e6a2a8749956|234af4a4ff94f0d7|-1903403028||t20427.5011529981s|s398959b|398959|rds|local|vector|||0.5||
-spatial_results|stem|b70650cf15bfbd9c|21c5e84d0cd2315b|8b18387ed773b1bc|-2049970484||t20427.5011539653s|s143653b|143653|rds|local|vector|||0||
-plot_map_results|stem|af16a2e6bbac8f3d|edfc4d579c9f5932|5fc2e4adfaedf209|1601944216||t20427.50116261s|s960333b|960333|rds|local|vector|||0.53||
-report|stem||aeb496ff83eb363a|2c530c1562a7fbd1|787668912||t20427.5075031009s||0|file|local|vector|||4.43||! Error running quarto CLI from R. Caused by error: ✖ Error returned by quarto CLI. ℹ Rerun with `quiet = FALSE` to see the full error message. Caused by error: ! System command 'quarto.exe' failed
-report|stem||aeb496ff83eb363a|2c530c1562a7fbd1|787668912||t20427.44755112s||0|file|local|vector|||5.11||! Error running quarto CLI from R. Caused by error: ✖ Error returned by quarto CLI. ℹ Rerun with `quiet = FALSE` to see the full error message. Caused by error: ! System command 'quarto.exe' failed
->>>>>>> origin/devPerrine
 plot_diff_pays|function|b194b536069a37f2
 loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|f346c5cb5608b2ba
@@ -21,8 +6,20 @@ download_world_data|function|d79d00a48396f118
 mean_global|function|8a3ed2255572f6d8
 pays_similaire|function|27460da722882eec
 plot_map|function|4e7a955a3a73df97
-whereAreU|function|efd8fcf755077e4f
+whereAreU|function|64037e2dec29fee4
 diff_ton_pays|function|66fa04bb167cbb4a
 load_data|function|60d0d43a4994cc4d
 consumption_year|function|e6f15ecba65ac876
 join_countries|function|fee66a1a92847e7b
+spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-1571917652||t20427.5175897554s|s143151b|143151|rds|local|vector|||0.31||
+world_data_path|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-822662269|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20427.5175940191s|s107055b|107055|file|local|vector|||0.32||
+personal_data|stem|25e14243f607c9ff|0d7f5be69396a29c|10ffc8eac17fdf23|1481290618||t20427.5175950016s|s457b|457|rds|local|vector|||0.03||
+world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6072ce7dddbddcd1|-1938967394||t20427.5175956885s|s15010b|15010|rds|local|vector|||0.03||
+year_consumption|stem|1262d490a7d86df7|a5281f1076a5220a|e28220ada06c338e|-1086324074||t20427.5175961842s|s388b|388|rds|local|vector|||0.01||
+mean_world_data|stem|46db86c99a7a649c|d2c696471e322e87|cad7fecb3f277a2d|-80083802||t20427.5175971345s|s4017b|4017|rds|local|vector|||0.03||
+data_pays_diff|stem|82c07a8b092daa89|ce00ea5e4b2e2c71|c0de37194ddef457|625880944||t20427.5175974343s|s529b|529|rds|local|vector|||0.01||
+data_pays_simi|stem|93a7a86e95e62408|e1edbabc2461287c|b419b73f199caa3e|-1387688310||t20427.5175980774s|s611b|611|rds|local|vector|||0.02||
+plot_histo_perso|stem|19a7f01aad12438e|78a22fbcb68e9267|ae098c6505988e05|-1410010656||t20427.5176101398s|s419941b|419941|rds|local|vector|||0.85||
+plot_diff_countries|stem|09f6f1714a5dcb01|76b1e6a2a8749956|234af4a4ff94f0d7|-1903403028||t20427.5176205721s|s398959b|398959|rds|local|vector|||0.49||
+spatial_results|stem|b70650cf15bfbd9c|21c5e84d0cd2315b|8b18387ed773b1bc|-2049970484||t20427.5176214848s|s143653b|143653|rds|local|vector|||0.01||
+plot_map_results|stem|af16a2e6bbac8f3d|edfc4d579c9f5932|5fc2e4adfaedf209|1601944216||t20427.5176304198s|s960333b|960333|rds|local|vector|||0.5||
