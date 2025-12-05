@@ -1,16 +1,4 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-plot_diff_pays|function|b194b536069a37f2
-loop_correspondance|function|0a56e8180c5b2311
-import_spatial_countries|function|f346c5cb5608b2ba
-download_world_data|function|d79d00a48396f118
-mean_global|function|8a3ed2255572f6d8
-pays_similaire|function|27460da722882eec
-plot_map|function|4e7a955a3a73df97
-whereAreU|function|efd8fcf755077e4f
-diff_ton_pays|function|66fa04bb167cbb4a
-load_data|function|60d0d43a4994cc4d
-consumption_year|function|e6f15ecba65ac876
-join_countries|function|fee66a1a92847e7b
 spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-1571917652||t20427.5011209698s|s143151b|143151|rds|local|vector|||0.32||
 world_data_path|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-822662269|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20427.5011260988s|s107055b|107055|file|local|vector|||0.35||
 personal_data|stem|25e14243f607c9ff|0d7f5be69396a29c|10ffc8eac17fdf23|1481290618||t20427.501126997s|s457b|457|rds|local|vector|||0.01||
@@ -23,3 +11,16 @@ plot_histo_perso|stem|bae5b1cd1ddb3c16|78a22fbcb68e9267|c8607fb4db8284ec|-141001
 plot_diff_countries|stem|09f6f1714a5dcb01|76b1e6a2a8749956|234af4a4ff94f0d7|-1903403028||t20427.5011529981s|s398959b|398959|rds|local|vector|||0.5||
 spatial_results|stem|b70650cf15bfbd9c|21c5e84d0cd2315b|8b18387ed773b1bc|-2049970484||t20427.5011539653s|s143653b|143653|rds|local|vector|||0||
 plot_map_results|stem|af16a2e6bbac8f3d|edfc4d579c9f5932|5fc2e4adfaedf209|1601944216||t20427.50116261s|s960333b|960333|rds|local|vector|||0.53||
+plot_diff_pays|function|b194b536069a37f2
+loop_correspondance|function|0a56e8180c5b2311
+import_spatial_countries|function|f346c5cb5608b2ba
+download_world_data|function|d79d00a48396f118
+mean_global|function|8a3ed2255572f6d8
+pays_similaire|function|27460da722882eec
+plot_map|function|4e7a955a3a73df97
+whereAreU|function|efd8fcf755077e4f
+diff_ton_pays|function|66fa04bb167cbb4a
+load_data|function|60d0d43a4994cc4d
+consumption_year|function|e6f15ecba65ac876
+join_countries|function|fee66a1a92847e7b
+report|stem||aeb496ff83eb363a|2c530c1562a7fbd1|787668912||t20427.5075031009s||0|file|local|vector|||4.49||! Error running quarto CLI from R. Caused by error: ✖ Error returned by quarto CLI. ℹ Rerun with `quiet = FALSE` to see the full error message. Caused by error: ! System command 'quarto.exe' failed
