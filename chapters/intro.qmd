@@ -1,4 +1,4 @@
-# How wee did it and example {.unnumbered}
+# How we did it and example {.unnumbered}
 
 # Process
 
