@@ -36,5 +36,10 @@ list(
   tar_target(
     name = data_pays_simi,
     command = pays_similaire(year_consumption, mean_world_data)
+  ),
+
+  tar_target(
+    name = data_pays_diff,
+    command = diff_ton_pays(year_consumption, mean_world_data)
   )
 )

@@ -8,6 +8,7 @@ personal_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1481290618
 world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6701c9efcc94a924|-1938967394||t20427.3519934514s|s15010b|15010|rds|local|vector|||0.11||
 year_consumption|stem|b0c031ec35ed7d3d|a5281f1076a5220a|186c29dbe639f516|-1086324074||t20427.3539055579s|s521b|521|rds|local|vector|||0||
 mean_world_data|stem|46db86c99a7a649c|d2c696471e322e87|cad7fecb3f277a2d|-80083802||t20427.3539083272s|s4017b|4017|rds|local|vector|||0.08||
+data_pays_simi|stem|26382c6fdf4471e5|e1edbabc2461287c|18c3da697fc99b73|-1387688310||t20427.3635668426s|s431b|431|rds|local|vector|||0.09||
 loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|fa95f526be7bdb83
 download_world_data|function|d79d00a48396f118
@@ -17,4 +18,4 @@ diff_ton_pays|function|88cec24479a503df
 load_data|function|2856f3ed88567dfd
 consumption_year|function|e6f15ecba65ac876
 join_countries|function|a34a6741a118dd51
-data_pays_simi|stem|26382c6fdf4471e5|e1edbabc2461287c|18c3da697fc99b73|-1387688310||t20427.3635668426s|s431b|431|rds|local|vector|||0.09||
+data_pays_diff|stem|ea7b87dfc1db70ae|ce00ea5e4b2e2c71|72a30222b61b0468|625880944||t20427.3664867198s|s425b|425|rds|local|vector|||0.11||
