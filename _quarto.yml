@@ -1,24 +1,21 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "Alcohol consumption per country"
   author: "Minya, Emilio, Ambre, Franck & Perrine"
-  date: "05/12/2025"
+  date: "12/05/2025"
   chapters:
     - index.qmd
-    - intro.qmd
-    - Reveal_your_country.qmd
-
-bibliography: references.bib
+    - chapters/intro.qmd
+    - chapters/Reveal_your_country.qmd
 
 format:
   html:
     theme:
       - cosmo
       - brand
-  pdf:
-    documentclass: scrreprt
 
 
 
