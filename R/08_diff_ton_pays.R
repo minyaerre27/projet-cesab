@@ -11,7 +11,7 @@ diff_ton_pays <- function(small_data, world_data) {
     dplyr::group_by(id) |>
     dplyr::filter(Entity == country.residence) |>
     dplyr::mutate(diff.meanCountry = cons_year - conso) |>
-    dplyr::select(id, age, pseudonyme, country.residence, diff.meanCountry, conso)
+    dplyr::select(id, age, pseudonyme, country.residence, diff.meanCountry, conso, cons_year)
 
   return(data_diff_ton_pays)
 }
