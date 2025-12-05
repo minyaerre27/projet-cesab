@@ -1,4 +1,13 @@
-# References {.unnumbered}
+# Reveal your country !!!
 
-::: {#refs}
+::: {#fig-alcoholic}
+
+![](../figures/person.jpeg)
+
+Alcohol is dangerous to your health
 :::
+
+Please unter your alcohol consumption of last week in the following table :
+
+
+

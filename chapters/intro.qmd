@@ -1,19 +1,19 @@
-# Introduction
+# Process
 
-Interested by the project ? 
+**Interested by the project ?**
 
-## Process
+*RCompendium was used to realise this project.*
 
-RCompendium was used to realise this project.
-It is vailable at: [github]
+It is available on [Github](https://github.com/minyaerre27/projet-cesab).
 
-1. We asked people how many glasses they drank last week by categories.
-- Beer (25 cl)
-- Wine (10 cl)
-- Apetizer (7 cl)
-- Liquor (2.5 cl)
+1.  We asked people how many glasses they drank last week by categories.
 
-2. From those data we estimated the year consumption in consumption_year():
+-   **Beer** (25 cl) 🍺
+-   **Wine** (10 cl) 🍷
+-   **Apetizer** (7 cl) 🍹
+-   **Liquor** (2.5 cl) 🥛
+
+2.  From those data we estimated the year consumption in consumption_year():
 
 ```{r}
 #| eval: false
@@ -29,15 +29,23 @@ consumption_year <- function(data) {
 }
 ```
 
-3. When giving your weekly consommation, we will estimate which country best suit you ! It will be your alcoholic country (see @fig-countries) !
+3.  When giving your weekly consommation, we will estimate which country best suit you ! It will be your alcoholic country (see @fig-countries) !
 
 ::: {#fig-countries}
-
 ![](../figures/map.jpeg)
 
 Alcohol consumption per countries
 :::
 
-For example, we did this experiment for the 5 of us : 
-[add fig]
+For example, we did this experiment on the 5 of us:
 
+This is our data:
+
+```{r}
+#| label: tbl-ourdata
+#| tbl-cap: "Alcohol consumption of the authors"
+#| echo: false
+#| warning: false
+knitr::kable(readr::read_csv("../data/smallData.csv"))
+
+```
