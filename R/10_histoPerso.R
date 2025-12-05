@@ -63,7 +63,7 @@ whereAreU <- function(
   ggsave(
     here::here("figures", "histo_perso.png"),
     plot = plot1,
-    width = 14,
+    width = 7,
     height = 7
   )
   return(plot1)
