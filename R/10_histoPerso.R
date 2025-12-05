@@ -9,7 +9,7 @@
 whereAreU <- function(
   year_consumption,
   mean_world_data,
-  pseudonyme = "tenayuco"
+  pseudonyme = "alcolo"
 ) {
   conso_pseu <- year_consumption$cons_year[
     year_consumption$pseudonyme == pseudonyme
