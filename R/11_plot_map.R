@@ -5,7 +5,7 @@
 #' @examples
 #'
 plot_map = function(spatial_res) {
-  spatial_res |>
+  map_alcohol = spatial_res |>
     ggplot() +
     geom_sf(aes(fill = pseudonyme)) +
     theme_minimal() +
@@ -13,4 +13,7 @@ plot_map = function(spatial_res) {
     ggtitle(
       "Countries with the most affinity drinking-wise"
     )
+  ggsave(here::here("figures", "map_alcohol.png"), plot = map_alcohol)
+
+  return(map_alcohol)
 }

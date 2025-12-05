@@ -13,7 +13,7 @@ It is available on [Github](https://github.com/minyaerre27/projet-cesab).
 -   **Apetizer** (7 cl) 🍹
 -   **Liquor** (2.5 cl) 🥛
 
-2.  [From those data we estimated the year consumption in consumption_year():]{.blue}
+2.  [From those data we estimated the year consumption usign the function]{.blue} __consumption_year()__[:]{.blue}
 
 ```{r}
 #| eval: false
@@ -48,16 +48,28 @@ __This is our data:__
 #| tbl-cap: "Alcohol consumption of the authors"
 #| echo: false
 #| warning: false
-knitr::kable(readr::read_csv("../data/smallData.csv"))
+knitr::kable(readr::read_csv("../data/smallData.csv")[1:5,])
 
 ```
 
 __And this is our results:__
 
-1. [The following map shows which country in our alcoholic nationality:]{.blue}
+1. [The following map shows which country is our alcoholic nationality:]{.blue}
 
+::: {#fig-ourmap}
+![](../figures/map_alcohol.png)
+
+Our alcoholic nationality map
+:::
 
 2. [We wondered how much we diverged from our resident country (we are all from France oui oui baguette):]{.blue}
 
+::: {#fig-ourmap}
+![](../figures/country_diff.png)
+
+How we diverge.
+:::
+
+__As you can see we are all Africans and we are under the French consumption !!__
 
 [__Do you wanna try ?? Go next page__]{.blue}

@@ -1,4 +1,4 @@
-# Reveal your country !!!
+# Reveal your country !!! {.unnumbered}
 
 ::: {#fig-alcoholic}
 ![](../figures/person.jpeg)
@@ -11,7 +11,7 @@ Please unter your alcohol consumption of last week in the following table :
 ::: {#tbl-yourconsumption}
 | Beer | Wine | Apetizer | Liquor |
 |------|------|----------|--------|
-|   X  |   X  |   X      |    X   |
+|  15  |  10  |    5     |   1    |
 
 Number of glasses per category during the last week
 :::
@@ -29,5 +29,5 @@ waiting for the code
 Let's run the code....
 
 
-Go next page to see your result !
+__Go next page to see your result !__
 

@@ -1,8 +1,22 @@
-# Your Result !
+# Your Result ! {.unnumbered}
 
 [__We got a terrible information for you...__]{.red}
 
-ajouter image Ambre
+1. [The following map shows which country is your alcoholic nationality:]{.blue}
+
+::: {#fig-ourmap}
+![](../figures/map_alcohol.png)
+
+Our alcoholic nationality map
+:::
+
+2. [How much do you diverge from your resident country:]{.blue}
+
+::: {#fig-ourmap}
+![](../figures/country_diff.png)
+
+How we diverge.
+:::
 
 ::: {#fig-alcoholic}
 ![](../figures/not_proud.jpeg)
