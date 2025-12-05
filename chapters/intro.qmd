@@ -13,7 +13,7 @@ It is available on [Github](https://github.com/minyaerre27/projet-cesab).
 -   **Apetizer** (7 cl) 🍹
 -   **Liquor** (2.5 cl) 🥛
 
-2.  From those data we estimated the year consumption in consumption_year():
+2.  [From those data we estimated the year consumption in consumption_year():]{.blue}
 
 ```{r}
 #| eval: false
@@ -29,7 +29,7 @@ consumption_year <- function(data) {
 }
 ```
 
-3.  When giving your weekly consommation, we will estimate which country best suit you ! It will be your alcoholic country (see @fig-countries) !
+3.  [When giving your weekly consommation, we will estimate which country best suit you !]{.blue} It will be your alcoholic country (see @fig-countries) !
 
 ::: {#fig-countries}
 ![](../figures/map.jpeg)
@@ -49,3 +49,5 @@ This is our data:
 knitr::kable(readr::read_csv("../data/smallData.csv"))
 
 ```
+
+And this is our results

@@ -7,5 +7,9 @@ ajouter image Ambre
 ::: {#fig-alcoholic}
 ![](../figures/not_proud.jpeg)
 
-Alcohol is dangerous to your health
+You should see someone for your addiction...
 :::
+
+
+
+__THE END__
