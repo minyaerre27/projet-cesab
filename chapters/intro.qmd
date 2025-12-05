@@ -59,7 +59,7 @@ __And this is our results:__
 1. [The following map shows which country is our alcoholic nationality:]{.blue}
 
 ::: {#fig-ourmap}
-![](../figures/map_alcohol.png)
+![](../figures/group_figs/map_alcohol.png)
 
 Our alcoholic nationality map
 :::
@@ -67,11 +67,21 @@ Our alcoholic nationality map
 2. [We wondered how much we diverged from our resident country (we are all from France oui oui baguette):]{.blue}
 
 ::: {#fig-ourmap}
-![](../figures/country_diff.png)
+![](../figures/group_figs/country_diff.png)
 
 How we diverge.
 :::
 
 __As you can see we are all Africans and we are under the French consumption !!__
+
+3. [Let see how]{.blue} __peu_importe__ [diverge from all countries.]{.blue}
+
+::: {#fig-ourmap}
+![](../figures/group_figs/histo_perso.png)
+
+How we diverge.
+:::
+
+__Peu_importe__ has a moderate alcohol consumption.
 
 [__Do you wanna try ?? Go next page__]{.blue}
