@@ -16,6 +16,14 @@ plot_histo_perso|stem|eb40aac774e86aed|5fccc6c837d2bb10|ff270cef1024e23e|-141001
 plot_diff_countries|stem|e01eb79414a9b667|40113a6b4f59a446|882a15713f787e5d|-1903403028||t20427.5344875366s|s399028b|399028|rds|local|vector|||0.51||
 plot_map_results_group|stem|c459ac250007523d|a4d5367c16fb220b|9f75a0186253348d|-2020441328||t20427.5346776602s|s960473b|960473|rds|local|vector|||0.75||
 plot_histo_perso_group|stem|eb40aac774e86aed|5fccc6c837d2bb10|ff270cef1024e23e|549628910||t20427.5366712709s|s420046b|420046|rds|local|vector|||0.78||
+alcolo_year_consumption|stem|3bf7021ef4894767|cec46ab37f3ea164|5ec0275a572e553e|1891009928||t20427.5388366799s|s397b|397|rds|local|vector|||0.03||
+alcolo_pays_diff|stem|efbcf704e0fb9219|4f7b0075809e7390|6f1b5b5bf6e1b5a6|-1785039659||t20427.5388376929s|s359b|359|rds|local|vector|||0.02||
+alcolo_pays_simi|stem|5ae7ce4ec3ebf88c|9f5e2c08db7c5f9d|c91a578019fbfdc6|-1091420161||t20427.5388383947s|s356b|356|rds|local|vector|||0.02||
+plot_histo_perso_alcolo|stem|caa08c759281f702|e1abda28b03dc5aa|4aa0e9e01f0bb9de|279376072||t20427.5388497583s|s420077b|420077|rds|local|vector|||0.77||
+plot_diff_countries_group|stem|e01eb79414a9b667|40113a6b4f59a446|882a15713f787e5d|-104854078||t20427.5388583296s|s399028b|399028|rds|local|vector|||0.48||
+plot_diff_countries_alcolo|stem|3fdfa80ced4ddec2|01c0d3e0d2babe6c|dec2067ddf0d3fcc|-165150678||t20427.5388648075s|s398608b|398608|rds|local|vector|||0.33||
+alcolo_spatial_results|stem|af84f41750b84603|33f699bad2849af9|c0f97eb964b3d5a5|1417649586||t20427.538865759s|s143407b|143407|rds|local|vector|||0.02||
+plot_map_results_alcolo|stem|14028fd4585eb30d|0859b56d96e67b07|cd61c46462c495b9|-724022873||t20427.5388757696s|s959488b|959488|rds|local|vector|||0.63||
 plot_diff_pays|function|beaf97f20867acf6
 loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|f346c5cb5608b2ba
@@ -28,11 +36,3 @@ diff_ton_pays|function|66fa04bb167cbb4a
 load_data|function|60d0d43a4994cc4d
 consumption_year|function|e6f15ecba65ac876
 join_countries|function|fee66a1a92847e7b
-alcolo_year_consumption|stem|3bf7021ef4894767|cec46ab37f3ea164|5ec0275a572e553e|1891009928||t20427.5388366799s|s397b|397|rds|local|vector|||0.03||
-alcolo_pays_diff|stem|efbcf704e0fb9219|4f7b0075809e7390|6f1b5b5bf6e1b5a6|-1785039659||t20427.5388376929s|s359b|359|rds|local|vector|||0.02||
-alcolo_pays_simi|stem|5ae7ce4ec3ebf88c|9f5e2c08db7c5f9d|c91a578019fbfdc6|-1091420161||t20427.5388383947s|s356b|356|rds|local|vector|||0.02||
-plot_histo_perso_alcolo|stem|caa08c759281f702|e1abda28b03dc5aa|4aa0e9e01f0bb9de|279376072||t20427.5388497583s|s420077b|420077|rds|local|vector|||0.77||
-plot_diff_countries_group|stem|e01eb79414a9b667|40113a6b4f59a446|882a15713f787e5d|-104854078||t20427.5388583296s|s399028b|399028|rds|local|vector|||0.48||
-plot_diff_countries_alcolo|stem|3fdfa80ced4ddec2|01c0d3e0d2babe6c|dec2067ddf0d3fcc|-165150678||t20427.5388648075s|s398608b|398608|rds|local|vector|||0.33||
-alcolo_spatial_results|stem|af84f41750b84603|33f699bad2849af9|c0f97eb964b3d5a5|1417649586||t20427.538865759s|s143407b|143407|rds|local|vector|||0.02||
-plot_map_results_alcolo|stem|14028fd4585eb30d|0859b56d96e67b07|cd61c46462c495b9|-724022873||t20427.5388757696s|s959488b|959488|rds|local|vector|||0.63||
