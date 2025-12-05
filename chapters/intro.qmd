@@ -29,7 +29,7 @@ consumption_year <- function(data) {
 }
 ```
 
-3. When giving your weekly consommation, we will estimate which country best suit you ! It will be your alcoholic country !
+3. When giving your weekly consommation, we will estimate which country best suit you ! It will be your alcoholic country (see @fig-countries) !
 
 ::: {#fig-countries}
 
@@ -38,4 +38,6 @@ consumption_year <- function(data) {
 Alcohol consumption per countries
 :::
 
+For example, we did this experiment for the 5 of us : 
+[add fig]
 
