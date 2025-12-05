@@ -11,6 +11,7 @@ book:
     - chapters/intro.qmd
     - chapters/Reveal_your_country.qmd
     - chapters/summary.qmd
+    - chapters/anexe.qmd
 
 format:
   html:
