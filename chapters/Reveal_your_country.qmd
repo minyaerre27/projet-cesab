@@ -6,7 +6,7 @@
 Alcohol is dangerous to your health
 :::
 
-Please unter your alcohol consumption of last week in the following table :
+Please enter your alcohol consumption of last week in the following table :
 
 ::: {#tbl-yourconsumption}
 | Beer | Wine | Apetizer | Liquor |Country|
