@@ -13,7 +13,12 @@ plot_map = function(spatial_res) {
     ggtitle(
       "Countries with the most affinity drinking-wise"
     )
-  ggsave(here::here("figures", "map_alcohol.png"), plot = map_alcohol)
+  ggsave(
+    here::here("figures", "map_alcohol.png"),
+    plot = map_alcohol,
+    width = 14,
+    height = 7
+  )
 
   return(map_alcohol)
 }

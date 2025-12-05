@@ -4,36 +4,22 @@ data_file|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-679625259|C:/
 small_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1868409821||t20426.6815532589s|s446b|446|rds|local|vector|||0.45||
 
 world_data_path|stem|ab531e03e58eca96|2e70603228862c7e|7eb1a95ac0843fc9|-822662269|C:/Users/adeschamps/Documents/Codes/Reproductibility_CESAB/projet-cesab/data/alcohol_per_country.csv|t20427.3519847884s|s107055b|107055|file|local|vector|||0.54||
-personal_data|stem|64ad16622ead97a8|0d7f5be69396a29c|8fd5d6994a807021|1481290618||t20427.3519910921s|s446b|446|rds|local|vector|||0.41||
-world_db|stem|5b6c6146b9d67b29|ac6b8f1ea934c88b|6701c9efcc94a924|-1938967394||t20427.3519934514s|s15010b|15010|rds|local|vector|||0.11||
-year_consumption|stem|b0c031ec35ed7d3d|a5281f1076a5220a|186c29dbe639f516|-1086324074||t20427.3539055579s|s521b|521|rds|local|vector|||0||
 mean_world_data|stem|46db86c99a7a649c|d2c696471e322e87|cad7fecb3f277a2d|-80083802||t20427.3539083272s|s4017b|4017|rds|local|vector|||0.08||
 data_pays_simi|stem|57a3fe1ec9b752cc|e1edbabc2461287c|f367bbe0c7342f96|-1387688310||t20427.3965166706s|s604b|604|rds|local|vector|||0.02||
-<<<<<<< HEAD
-spatial_results|stem|c0b1a00d190ff800|21c5e84d0cd2315b|2ef4425f967cf943|-2049970484||t20427.4332201751s|s143591b|143591|rds|local|vector|||0||
-<<<<<<< HEAD
-plot_map_results|stem|435e3168627b6590|edfc4d579c9f5932|e11f6dc07f05cf3b|1601944216||t20427.4396087315s|s694436b|694436|rds|local|vector|||0.06||
-=======
-data_pays_diff|stem|9bcad1949c245930|ce00ea5e4b2e2c71|d811627eb8cd1d80|625880944||t20427.4119714036s|s516b|516|rds|local|vector|||0.028||
->>>>>>> origin/devMinya
-spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-1571917652||t20427.4474847771s|s143151b|143151|rds|local|vector|||0.54||
-plot_diff_pays|function|b19e0a2177cb7153
-=======
 spatial_countries|stem|c7185a5e29e7f9ca|f323033025cc0d4c|fee70e646353b789|-1571917652||t20427.4157032064s|s143151b|143151|rds|local|vector|||0.33||
 <<<<<<< HEAD
 =======
 >>>>>>> origin/devMinya
 plot_diff_pays|function|02e7c3198d23ae15
->>>>>>> origin/main
 loop_correspondance|function|0a56e8180c5b2311
 import_spatial_countries|function|f346c5cb5608b2ba
 download_world_data|function|d79d00a48396f118
 mean_global|function|8a3ed2255572f6d8
 pays_similaire|function|27460da722882eec
-plot_map|function|b485c93a7ea12081
-whereAreU|function|03cb3efdcc6c8623
+plot_map|function|4e7a955a3a73df97
+whereAreU|function|efd8fcf755077e4f
 diff_ton_pays|function|66fa04bb167cbb4a
-load_data|function|2856f3ed88567dfd
+load_data|function|60d0d43a4994cc4d
 consumption_year|function|e6f15ecba65ac876
 <<<<<<< HEAD
 join_countries|function|9422540371aaec27
@@ -43,4 +29,3 @@ join_countries|function|fee66a1a92847e7b
 data_pays_diff|stem|034a95c7ecf07e05|ce00ea5e4b2e2c71|ab3a99c4226b5fc5|625880944||t20427.4552779702s|s516b|516|rds|local|vector|||0.03||
 spatial_results|stem|4ed28b62ed6a79c9|21c5e84d0cd2315b|f3940e3f802ed61e|-2049970484||t20427.45527993s|s143647b|143647|rds|local|vector|||0.02||
 plot_map_results|stem|73f861c530c34195|edfc4d579c9f5932|1ffe151904ca14dc|1601944216||t20427.4553901701s|s960174b|960174|rds|local|vector|||9.25||
->>>>>>> origin/main
