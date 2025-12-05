@@ -9,12 +9,12 @@
 whereAreU <- function(
   year_consumption,
   mean_world_data,
+  dest,
   pseudonyme = "pepe"
 ) {
   conso_pseu <- year_consumption$cons_year[
     year_consumption$pseudonyme == pseudonyme
   ]
-
 
   less_countries <- mean_world_data$Entity[abs(
     mean_world_data$conso < conso_pseu
@@ -29,8 +29,15 @@ whereAreU <- function(
     theme_minimal() +
     theme(legend.position = "none") +
     scale_fill_viridis_d() +
-    annotate(geom = "rect", xmin = conso_pseu, xmax = 20, ymin=0, ymax = 16,
-           fill = "white", alpha = 0.5) +
+    annotate(
+      geom = "rect",
+      xmin = conso_pseu,
+      xmax = 20,
+      ymin = 0,
+      ymax = 16,
+      fill = "white",
+      alpha = 0.5
+    ) +
     geom_text(
       x = 10,
       y = 14,
@@ -50,7 +57,7 @@ whereAreU <- function(
     labs(x = "Annual consommation (L)", y = "Number of countries")
 
   ggsave(
-    here::here("figures", "histo_perso.png"),
+    here::here("figures", dest, "histo_perso.png"),
     plot = plot1,
     width = 7,
     height = 7

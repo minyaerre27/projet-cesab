@@ -2,7 +2,7 @@
 #' Function to plot the difference between
 #' @param data_diff_pays data with user's consumption,
 
-plot_diff_pays <- function(data_diff_pays) {
+plot_diff_pays <- function(data_diff_pays, dest) {
   data2 <- data_diff_pays |>
     dplyr::mutate(position = ifelse(cons_year > conso, "over", "under"))
 
@@ -34,7 +34,7 @@ plot_diff_pays <- function(data_diff_pays) {
     theme(axis.text.x = element_text(angle = 45, vjust = 0.5, hjust = 0.5))
 
   ggsave(
-    here::here("figures", "country_diff.png"),
+    here::here("figures", dest, "country_diff.png"),
     plot = plot_diff,
     width = 8,
     height = 5

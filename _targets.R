@@ -6,11 +6,22 @@ library(sf)
 targets::tar_source()
 
 list(
-  # download the world data if needed and get the path to the .csv file
+  # download the data if needed and get the path to the .csv files
   tar_target(
     name = world_data_path,
     command = download_world_data(),
     format = "file"
+  ),
+
+  tar_target(
+    name = small_data_path,
+    command = here::here("data", "smallData.csv"),
+    format = "file"
+  ),
+
+  tar_target(
+    name = alcolo_data_path,
+    command = here::here("data", "alcolo_example.csv")
   ),
 
   # load the world data in the working environment
@@ -25,7 +36,13 @@ list(
   # load personal data
   tar_target(
     name = personal_data,
-    command = load_data(here::here("data", "smallData.csv"))
+    command = load_data(small_data_path)
+  ),
+
+  # load alcolo data
+  tar_target(
+    name = alcolo_data,
+    command = load_data(alcolo_data_path)
   ),
 
   # compute the yearly consumption of the participants
@@ -55,20 +72,73 @@ list(
   ),
 
   tar_target(
-    name = plot_map_results,
-    command = plot_map(spatial_results)
+    name = plot_map_results_group,
+    command = plot_map(
+      spatial_results,
+      dest = "group_figs"
+    )
   ),
 
   tar_target(
-    name = plot_diff_countries,
-    command = plot_diff_pays(data_pays_diff)
+    name = plot_diff_countries_group,
+    command = plot_diff_pays(
+      data_pays_diff,
+      dest = "group_figs"
+    ),
   ),
   tar_target(
-    name = plot_histo_perso,
+    name = plot_histo_perso_group,
     command = whereAreU(
       year_consumption,
       mean_world_data,
+      dest = "group_figs",
       pseudonyme = "pepe"
+    )
+  ),
+
+  # compute the yearly consumption of the participants
+  tar_target(
+    name = alcolo_year_consumption,
+    command = consumption_year(alcolo_data)
+  ),
+
+  tar_target(
+    name = alcolo_pays_simi,
+    command = pays_similaire(alcolo_year_consumption, mean_world_data)
+  ),
+
+  tar_target(
+    name = alcolo_pays_diff,
+    command = diff_ton_pays(alcolo_year_consumption, mean_world_data)
+  ),
+
+  tar_target(
+    name = alcolo_spatial_results,
+    command = join_countries(spatial_countries, alcolo_pays_simi)
+  ),
+
+  tar_target(
+    name = plot_map_results_alcolo,
+    command = plot_map(
+      alcolo_spatial_results,
+      dest = "alcolo"
+    )
+  ),
+
+  tar_target(
+    name = plot_diff_countries_alcolo,
+    command = plot_diff_pays(
+      alcolo_pays_diff,
+      dest = "alcolo"
+    ),
+  ),
+  tar_target(
+    name = plot_histo_perso_alcolo,
+    command = whereAreU(
+      alcolo_year_consumption,
+      mean_world_data,
+      dest = "alcolo",
+      pseudonyme = "alcolo"
     )
   )
 
