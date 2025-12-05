@@ -1,6 +1,6 @@
 Package: projet-cesab
 Type: Package
-Title: The Title of the Project
+Title: Measure your alcohol consumption
 Version: 0.0.0.9000
 Authors@R: c(
     person(given   = "Minya",
