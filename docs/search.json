@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Alcohol consumption per country",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Preface\nThis is a Quarto presentation that determines your nationality based on your annual alcohol consumption.\n\n\n\nhttps://www.ameli.fr/",
     "crumbs": [
       "Preface"
     ]
